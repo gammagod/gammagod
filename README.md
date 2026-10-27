@@ -22,19 +22,15 @@
 <!-- desk-stats:start -->
 ### 📈 live desk stats
 
-| 🤖 bot | XMR long grid · [y-terminal](https://github.com/tobenwarrior/y-terminal) · running |
-|---|---|
-| 🕐 started | 12:09 SGT, 26 Oct 2026 |
-| 💰 margin | $200 allocated |
-| 📦 position | 0.798 XMR @ 591.3 (cross 5x) |
-| ✅ realized grid PnL (after fees & funding) | $-0.20 |
-| 🌊 unrealized PnL | $+0.85 |
-| 🧾 fees paid | $0.20 |
-| 🔁 round trips | 0 |
-| 📅 days running | 0.01 |
-| 🚀 APR (simple, non-compounding) | n/a, too early |
+| grid | lev · status | margin budget | position | ✅ realized (after fees & funding) | 🌊 unrealized | 🧾 fees | 🔁 round trips | 📅 days | 🚀 APR (simple) |
+|---|---|---|---|---|---|---|---|---|---|
+| XMR | 5x isolated · running | $893 | long 1.651 @ 589.345 | $+9.61 | $+35.50 | $1.97 | 7 | 0.7 | n/a (under 1 day) |
+| xyz:NATGAS | 3x isolated · running | $859 | flat | $+3.51 | $+0.00 | $0.01 | 1 | 0.6 | n/a (under 1 day) |
+| **total** | | $1753 | | **$+13.11** | **$+35.50** | $1.98 | 8 | | net **$+48.62** |
 
-<sub>updated 26 Oct 2026 12:29 SGT · real data from the Hyperliquid info API · not financial advice 💜</sub>
+🌀 Day 1 | $HYPE flywheel: 0.2799 HYPE worth $21.98 (−$0.00); yesterday the XMR grid earned $44.98, 50% = $22.49, bought 0.28 HYPE at $78.52
+
+<sub>updated 27 Oct 2026 09:11 SGT · grids run on [y-terminal](https://github.com/tobenwarrior/y-terminal) · real data from the Hyperliquid info API · APR = net PnL / margin budget × 365 / days, non-compounding · not financial advice 💜</sub>
 <!-- desk-stats:end -->
 
 ### 📊 favourite greeks
