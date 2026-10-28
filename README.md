@@ -18,25 +18,23 @@ Grid bots on Hyperliquid, run around the clock, real numbers only.
 ## Live desk stats
 
 <p align="center">
-<picture><img src="https://img.shields.io/badge/capital_managed-%242,141-0366d6?style=flat-square" alt="capital managed"></picture> <picture><img src="https://img.shields.io/badge/live_grids-3-2ea44f?style=flat-square" alt="live grids"></picture> <picture><img src="https://img.shields.io/badge/realized_net-%2B%2432.02-2ea44f?style=flat-square" alt="realized net"></picture> <picture><img src="https://img.shields.io/badge/unrealized-%2B%2419.62-informational?style=flat-square" alt="unrealized"></picture> <picture><img src="https://img.shields.io/badge/days_live-1.8-lightgrey?style=flat-square" alt="days live"></picture> <picture><img src="https://img.shields.io/badge/HYPE_stash-0.4098-8a2be2?style=flat-square" alt="HYPE stash"></picture>
+<picture><img src="https://img.shields.io/badge/capital_managed-%242,141-0366d6?style=flat-square" alt="capital managed"></picture> <picture><img src="https://img.shields.io/badge/live_grids-3-2ea44f?style=flat-square" alt="live grids"></picture> <picture><img src="https://img.shields.io/badge/realized_net-%2B%2436.99-2ea44f?style=flat-square" alt="realized net"></picture> <picture><img src="https://img.shields.io/badge/unrealized-%2B%2438.00-informational?style=flat-square" alt="unrealized"></picture> <picture><img src="https://img.shields.io/badge/days_live-1.9-lightgrey?style=flat-square" alt="days live"></picture> <picture><img src="https://img.shields.io/badge/HYPE_stash-0.4098-8a2be2?style=flat-square" alt="HYPE stash"></picture>
 </p>
-
-**Capital managed:** allocated $2,141.47 · deployed $2,141.47 · grid equity $2,193.11 (allocated + realized + unrealized) · **+2.41%** on allocation
 
 | Grid | Range | Position | Realized net | Unrealized | Round trips |
 |---|---|---|--:|--:|--:|
-| **XMR**<br><sub>long · 5x</sub> | 521.4–663.6 | 1.905 @ 595.795 | +$21.61 | +$12.52 | 18 |
+| **XMR**<br><sub>long · 5x</sub> | 521.4–663.6 | 1.524 @ 595.795 | +$26.58 | +$31.60 | 21 |
 | **NATGAS**<br><sub>neutral · 3x</sub> | 2.4152–3.4713 | flat | +$7.01 | +$0.00 | 2 |
-| **SP500**<br><sub>long · 6x</sub> | 7596–7843.2 | 0.125 @ 7670.0 | +$3.39 | +$7.10 | 3 |
-| **Total** | | margin $2141 | **+$32.02** | **+$19.62** | 23 |
+| **SP500**<br><sub>long · 6x</sub> | 7596–7843.2 | 0.125 @ 7670.0 | +$3.39 | +$6.40 | 3 |
+| **Total** | | margin $2141 | **+$36.99** | **+$38.00** | 26 |
 
-Net (realized + unrealized): **+$51.64**
+Net (realized + unrealized): **+$74.98**
 
 | Grid | Fees | Funding | Days | APR |
 |---|--:|--:|--:|--:|
-| XMR | $2.24 | −$1.79 | 1.8 | 797% |
-| NATGAS | $0.02 | −$0.01 | 1.7 | 190% |
-| SP500 | $0.14 | +$0.10 | 0.8 | n/a<sup>*</sup> |
+| XMR | $2.27 | −$2.16 | 1.9 | 1263% |
+| NATGAS | $0.02 | −$0.01 | 1.9 | 176% |
+| SP500 | $0.14 | +$0.10 | 0.9 | n/a<sup>*</sup> |
 
 <sub>* APR shown once a grid has run a full day.</sub>
 
@@ -44,13 +42,15 @@ Net (realized + unrealized): **+$51.64**
 
 50% of each day's realized grid net is used to buy HYPE spot. Unrealized never counts; HYPE is never sold.
 
-| HYPE held | Cost | Avg price | Mark value | P/L |
-|--:|--:|--:|--:|--:|
-| 0.4098 | $32.59 | $79.52 | $33.29 | +$0.71 |
+| HYPE held | Cost | Avg price | Mark value | P/L | Treasury¹ |
+|--:|--:|--:|--:|--:|--:|
+| 0.4098 | $32.59 | $79.52 | $33.38 | +$0.79 | $14.37 |
 
-<sub>Day 2 | $HYPE flywheel: 0.4098 HYPE worth $33.29 (+$0.71); yesterday the grids realized $19.13, 50% = $9.57, bought 0.13 HYPE at $81.544</sub>
+<sub>¹ Treasury: the other 50% of realized grid net, not spent on HYPE; held in USDC, toben's to withdraw or add to the fund allocation.</sub>
 
-<sub>Updated 28 Oct 2026 11:15 SGT · data from the Hyperliquid info API · realized net = closedPnl − fees + funding · APR = net PnL / margin budget × 365 / days, simple, non-compounding · not financial advice</sub>
+<sub>Day 2 | $HYPE flywheel: 0.4098 HYPE worth $33.38 (+$0.79); yesterday the grids realized $19.13, 50% = $9.57, bought 0.13 HYPE at $81.544</sub>
+
+<sub>Updated 28 Oct 2026 14:24 SGT · data from the Hyperliquid info API · realized net = closedPnl − fees + funding · APR = net PnL / margin budget × 365 / days, simple, non-compounding · not financial advice</sub>
 <!-- desk-stats:end -->
 
 ## How the desk runs
