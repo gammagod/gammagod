@@ -18,23 +18,21 @@ Grid bots on Hyperliquid, run around the clock, real numbers only.
 ## Live desk stats
 
 <p align="center">
-
-<picture><img src="https://img.shields.io/badge/live_grids-3-2ea44f?style=flat-square" alt="live grids"></picture> <picture><img src="https://img.shields.io/badge/realized_net-%2B%2432.02-2ea44f?style=flat-square" alt="realized net"></picture> <picture><img src="https://img.shields.io/badge/unrealized-%2B%2418.98-informational?style=flat-square" alt="unrealized"></picture> <picture><img src="https://img.shields.io/badge/days_live-1.7-lightgrey?style=flat-square" alt="days live"></picture> <picture><img src="https://img.shields.io/badge/HYPE_stash-0.4098-8a2be2?style=flat-square" alt="HYPE stash"></picture>
-
+<picture><img src="https://img.shields.io/badge/live_grids-3-2ea44f?style=flat-square" alt="live grids"></picture> <picture><img src="https://img.shields.io/badge/realized_net-%2B%2432.02-2ea44f?style=flat-square" alt="realized net"></picture> <picture><img src="https://img.shields.io/badge/unrealized-%2B%2419.30-informational?style=flat-square" alt="unrealized"></picture> <picture><img src="https://img.shields.io/badge/days_live-1.7-lightgrey?style=flat-square" alt="days live"></picture> <picture><img src="https://img.shields.io/badge/HYPE_stash-0.4098-8a2be2?style=flat-square" alt="HYPE stash"></picture>
 </p>
 
 | Grid | Range | Position | Realized net | Unrealized | Round trips |
 |---|---|---|--:|--:|--:|
-| **XMR**<br><sub>long · 5x</sub> | 521.4–663.6 | 1.905 @ 595.795 | +$21.61 | +$11.86 | 18 |
+| **XMR**<br><sub>long · 5x</sub> | 521.4–663.6 | 1.905 @ 595.795 | +$21.61 | +$12.20 | 18 |
 | **NATGAS**<br><sub>neutral · 3x</sub> | 2.4152–3.4713 | flat | +$7.01 | +$0.00 | 2 |
-| **SP500**<br><sub>long · 6x</sub> | 7596–7843.2 | 0.125 @ 7670.0 | +$3.39 | +$7.12 | 3 |
-| **Total** | | margin $2141 | **+$32.02** | **+$18.98** | 23 |
+| **SP500**<br><sub>long · 6x</sub> | 7596–7843.2 | 0.125 @ 7670.0 | +$3.39 | +$7.10 | 3 |
+| **Total** | | margin $2141 | **+$32.02** | **+$19.30** | 23 |
 
-Net (realized + unrealized): **+$51.00**
+Net (realized + unrealized): **+$51.32**
 
 | Grid | Fees | Funding | Days | APR |
 |---|--:|--:|--:|--:|
-| XMR | $2.24 | −$1.79 | 1.7 | 782% |
+| XMR | $2.24 | −$1.79 | 1.7 | 790% |
 | NATGAS | $0.02 | −$0.01 | 1.7 | 190% |
 | SP500 | $0.14 | +$0.10 | 0.8 | n/a<sup>*</sup> |
 
