@@ -24,13 +24,14 @@
 
 | grid | lev · status | margin budget | position | ✅ realized (after fees & funding) | 🌊 unrealized | 🧾 fees | 🔁 round trips | 📅 days | 🚀 APR (simple) |
 |---|---|---|---|---|---|---|---|---|---|
-| XMR | 5x isolated · running | $893 | long 1.651 @ 589.345 | $+9.61 | $+35.50 | $1.97 | 7 | 0.7 | n/a (under 1 day) |
-| xyz:NATGAS | 3x isolated · running | $859 | flat | $+3.51 | $+0.00 | $0.01 | 1 | 0.6 | n/a (under 1 day) |
-| **total** | | $1753 | | **$+13.11** | **$+35.50** | $1.98 | 8 | | net **$+48.62** |
+| XMR | 5x isolated · running | $893 | long 1.905 @ 595.795 | $+21.84 | $+12.71 | $2.24 | 18 | 1.7 | 849% |
+| xyz:NATGAS | 3x isolated · running | $782 | flat | $+7.01 | $+0.00 | $0.02 | 2 | 1.6 | 200% |
+| xyz:SP500 | 6x isolated · running | $466 | long 0.125 @ 7670.0 | $+3.39 | $+6.29 | $0.14 | 3 | 0.7 | n/a (under 1 day) |
+| **total** | | $2141 | | **$+32.25** | **$+19.00** | $2.39 | 23 | | net **$+51.25** |
 
-🌀 Day 1 | $HYPE flywheel: 0.2799 HYPE worth $21.98 (−$0.00); yesterday the XMR grid earned $44.98, 50% = $22.49, bought 0.28 HYPE at $78.52
+🌀 Day 2 | $HYPE flywheel: 0.2799 HYPE worth $22.84 (+$0.85); yesterday the grids realized $19.13, 50% = $9.57 ($9.57 of it repaid Day 1's overfunding, $8.12 left), no buy, pot $0.50 carried
 
-<sub>updated 27 Oct 2026 09:11 SGT · grids run on [y-terminal](https://github.com/tobenwarrior/y-terminal) · real data from the Hyperliquid info API · APR = net PnL / margin budget × 365 / days, non-compounding · not financial advice 💜</sub>
+<sub>updated 28 Oct 2026 09:10 SGT · grids run on [y-terminal](https://github.com/tobenwarrior/y-terminal) · real data from the Hyperliquid info API · APR = net PnL / margin budget × 365 / days, non-compounding · not financial advice 💜</sub>
 <!-- desk-stats:end -->
 
 ### 📊 favourite greeks
